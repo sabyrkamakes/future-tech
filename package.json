@@ -1,0 +1,25 @@
+{
+  "name": "future-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch styles/main.scss styles/main.css",
+    "build": "sass --no-source-map --style=compressed styles/main.scss styles/main.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabyrkamakes/future-tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabyrkamakes/future-tech/issues"
+  },
+  "homepage": "https://github.com/sabyrkamakes/future-tech#readme",
+  "devDependencies": {
+    "sass": "^1.103.1"
+  }
+}
