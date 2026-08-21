@@ -11,10 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FutureTech | Home</title>
     <link rel="stylesheet" href="./styles/main.css" />
-    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/main.js" type="module"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-js-header>
       <div class="header__promo">
         <div class="header__promo-inner container">
           <a class="header__promo-link" href="/">
@@ -40,7 +40,7 @@
               height="50"
             />
           </a>
-          <div class="header__overlay">
+          <div class="header__overlay" data-js-header-overlay>
             <nav class="header__menu">
               <ul class="header__menu-list">
                 <li class="header__menu-item">
@@ -64,6 +64,7 @@
             type="button"
             aria-label="Open menu"
             title="Open menu"
+            data-js-header-burger-button
           >
             <span class="burger-button__line"></span>
             <span class="burger-button__line"></span>
